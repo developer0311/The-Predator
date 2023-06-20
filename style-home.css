@@ -86,7 +86,7 @@ body{
         font-size: 50px;
     }
     .container-1{
-        min-height: calc(100vh - 120px - 10vh);
+        min-height: calc(100vh - 120px - 90px);
         display: flex;
         justify-content: center;
         align-items: center;
