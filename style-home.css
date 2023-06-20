@@ -83,7 +83,7 @@ body{
         min-height: calc(100vh - 120px - 90px);
     }
     h1{
-        font-size: 50px;
+        font-size: 30px;
     }
     .container-1{
         min-height: calc(100vh - 120px - 90px);
@@ -99,7 +99,7 @@ body{
         line-height: 20px;
     }
     @keyframes home-h1 {
-        50%{font-size: 57px;}
+        50%{font-size: 40px;}
         
     }
 }
