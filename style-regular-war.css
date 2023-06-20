@@ -1,0 +1,122 @@
+:root {
+    --main-bg-color: #0a613c;
+    --primary: #00e712;
+    --secondary: #a0ff68;
+}
+
+body{
+    text-align: center;
+}
+.background{
+    position: fixed;
+    top: 65px;
+    left: 0px;
+    width: 100vw;
+    min-height: calc(100vh - 65px - 90px);
+    background-image: url("./regular-war-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+}
+
+.background-1{
+    position: fixed;
+    top: 65px;
+    left: 0px;
+    width: 100vw;
+    min-height: calc(100vh - 65px - 90px);
+    background-color: rgba(17, 1, 1, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-1{
+    z-index: 10;
+    width: 100vw;
+    min-height: calc(100vh - 65px - 90px);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-report{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    /* position: absolute;
+    top: 85px;
+    left: calc(100vw- 35vw)/2; */
+    min-width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.635);
+    border-radius: 50px 0px;
+}
+.base-report .info td{
+    text-align: left;
+}
+
+.data-input{
+    padding: 1px 8px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 2px 0px;
+}
+/* .mid-col{
+    width: 20px;
+} */
+.submit-btn{
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: var(--primary);
+    background-color: #fff;
+    font-weight: bolder;
+    border: 0px;
+    box-shadow: 0px 0px 5px 1px;
+}
+
+.submit-btn:hover{
+    color: #fff;
+    background-color: rgb(3, 177, 32);
+}
+
+a{
+    color: #fff;
+}
+.submit-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 25px 0px 5px;
+}
+
+
+
+
+@media only screen and (max-width: 1160px) {
+    .background{
+        top: 120px;
+        min-height: calc(100vh - 120px - 90px);
+    }
+    .background-1{
+        top: 120px;
+        min-height: calc(100vh - 120px - 90px);
+    }
+
+    .container-1{
+        min-height: calc(100vh - 120px - 10vh);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
