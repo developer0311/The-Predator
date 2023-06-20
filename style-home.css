@@ -30,13 +30,13 @@ body{
     z-index: 10;
     display: inline-block;
     margin: auto;
-    font-size: 65px;
+    font-size: 50px;
     color: #fff;
     text-shadow: 0px 2px 2px rgb(77, 235, 200);
     animation: home-h1 2s ease-in-out infinite alternate ;
 }
 @keyframes home-h1 {
-    50%{font-size: 72px;}
+    50%{font-size: 60px;}
     
 }
 .container-2{
