@@ -21,7 +21,7 @@ body{
 
 .container-1{
     z-index: 10;
-    min-height: calc(100vh - 65px - 10vh);
+    min-height: calc(100vh - 65px - 90px);
     display: flex;
     justify-content: center;
     align-items: center;
