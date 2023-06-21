@@ -114,10 +114,10 @@ main{
     min-height: calc(100vh - 65px - 90px);
 }
 footer{
-    /*position: absolute;
-    bottom: 0px;*/
+    position: fixed
+    bottom: 0px;
     background-color:var(--main-bg-color);
-    /*width: 100vw;*/
+    width: 100vw;
     height: 90px;
     display: flex;
     flex-direction: column;
